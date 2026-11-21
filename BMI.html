@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI CALCULATOR</title>
+    <link rel="stylesheet" href="BMI.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="header">
+            <h1>BMI</h1>
+            <h2>CALCULATOR</h2>
+            <p>KNOW YOUR HEALTH.TAKE A STEP TOWARDS
+                A BETTER YOU.
+            </p>
+        </div>
+        <div id="calculator">
+            <button id="metric">Metric</button>
+            <button id="imperial">imperial</button>
+            <label>Weight (kg)</label>
+            <input type="number" id="Weightkg" placeholder="Enter your weight">
+            <label>Height (cm)</label>
+            <input type="number" id="cm" placeholder="Enter your height">
+            <button id="result">Caculator BMI</button>
+            <!-- Results -->
+            <div class="results-title">
+                Your Results
+            </div>
+            <div class="result-box">
+                <div class="gauge">
+                    <div class="gauge-content">
+                        <div class="bmi-number" id="bmiValue">--</div>
+                        <div class="bmi-label">BMI</div>
+                    </div>
+                </div>
+
+                <div class="category-box">
+                    <div class="category" id="category">
+                        --
+                    </div>
+
+                    <div class="message" id="message">
+                        Enter your weight and height to calculate your BMI.
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- BMI legend -->
+            <div class="legend">
+
+                <div class="legend-item">
+                    <div class="dot underweight"></div>
+                    <div>
+                        &lt; 18.5<br>
+                        Underweight
+                    </div>
+                </div>
+
+                <div class="legend-item">
+                    <div class="dot normal"></div>
+                    <div>
+                        18.5 – 24.9<br>
+                        Normal
+                    </div>
+                </div>
+
+                <div class="legend-item">
+                    <div class="dot overweight"></div>
+                    <div>
+                        25 – 29.9<br>
+                        Overweight
+                    </div>
+                </div>
+
+                <div class="legend-item">
+                    <div class="dot obese"></div>
+                    <div>
+                        ≥ 30<br>
+                        Obese
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="BMI.js"></script>
+
+</html>

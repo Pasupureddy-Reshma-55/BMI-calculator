@@ -108,7 +108,7 @@ BMI is a general screening measure and does not independently determine a person
 
 ## 👩‍💻 Author
 
-**Your Name**
+**P.Reshma**
 
 GitHub: P.Reshma(https://github.com/your-reshma)
 
